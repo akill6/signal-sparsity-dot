@@ -1,0 +1,7 @@
+*.asv
+*.bak
+*.log
+slprj/
+codegen/
+*.mexw64
+*.mexa64
