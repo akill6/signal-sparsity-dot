@@ -1,0 +1,10 @@
+# MATLAB autosaves and logs
+*.asv
+*.bak
+*.log
+
+# MATLAB generated folders and binaries
+slprj/
+codegen/
+*.mexw64
+*.mexa64
