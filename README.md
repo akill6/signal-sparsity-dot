@@ -110,7 +110,6 @@ signal-sparsity-dot/
 ├── number_2.mlapp   # application (GUI + DFT / DCT / DWT computation)
 ├── matDBs/          # database of 200 ECG signals: 1.mat ... 200.mat
 ├── docs/            # screenshots used in this file
-├── READ_ME.txt      # original short instructions and function overview (Slovak)
 ├── README.md        # this file (English)
 ├── README.sk.md     # Slovak version of this file
 └── .gitignore
@@ -235,7 +234,6 @@ Let `x` be the original signal, `x̂` the reconstructed signal, `e = x − x̂`,
 - All transforms use the same thresholding rule, so their results are directly comparable.
 - The panels use `BorderType = 'line'`. The value `'etchedin'` is not supported for UI figures in R2024b and fails with the error "Functionality not supported with figures created with the uifigure function".
 - The PRD (3 to 7 %) and SNR (15 to 25 dB) input ranges are set in the application.
-- The original short description of the functions (in Slovak) is in [`READ_ME.txt`](READ_ME.txt).
 
 ## Author
 

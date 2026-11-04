@@ -108,7 +108,6 @@ signal-sparsity-dot/
 ├── number_2.mlapp   # aplikácia (GUI + výpočty DFT / DCT / DWT)
 ├── matDBs/          # databáza 200 EKG signálov: 1.mat … 200.mat
 ├── docs/            # snímky obrazovky použité v tomto súbore
-├── READ_ME.txt      # pôvodné stručné pokyny a popis funkcií (SK)
 ├── README.md        # anglická verzia tohto súboru
 ├── README.sk.md     # tento súbor (slovenská verzia)
 └── .gitignore
@@ -229,7 +228,6 @@ Nech `x` je pôvodný signál, `x̂` rekonštruovaný signál, `e = x − x̂` a
 - Všetky transformácie používajú rovnaké pravidlo prahovania, preto sú výsledky navzájom porovnateľné.
 - Panely používajú `BorderType = 'line'`. Hodnota `'etchedin'` nie je v R2024b pre UI figure podporovaná a spôsobí chybu „Functionality not supported with figures created with the uifigure function".
 - Rozsahy polí PRD (3 – 7 %) a SNR (15 – 25 dB) sú dané nastavením aplikácie.
-- Pôvodný stručný popis funkcií (v slovenčine) je v súbore [`READ_ME.txt`](READ_ME.txt).
 
 ## Autor
 
