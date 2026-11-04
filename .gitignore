@@ -5,3 +5,8 @@ slprj/
 codegen/
 *.mexw64
 *.mexa64
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
