@@ -20,6 +20,7 @@ Author: Anzhelika Nikolaieva, 2026
 - [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
 - [Signal Database](#signal-database)
+- [Data Source and License](#data-source-and-license)
 - [Using the Application](#using-the-application)
 - [Methodology](#methodology)
 - [Metrics](#metrics)
@@ -131,6 +132,18 @@ Files shorter than 3000 samples are rejected with an error message, and a file w
 variable triggers a loading error.
 
 The signal list is sorted numerically by file name (1, 2, 3, ... 200), not alphabetically.
+
+## Data Source and License
+
+The signals in `matDBs/` come from the open-access **Lobachevsky University Electrocardiography Database (LUDB)**, version 1.0.1, published on PhysioNet: <https://physionet.org/content/ludb/1.0.1/>. LUDB contains 200 ten-second, 12-lead ECG recordings sampled at 500 Hz.
+
+The signals were converted to MATLAB `.mat` files (variable `ecgSignal`, 5000 × 12 samples). The LUDB delineation annotations are not used by the application.
+
+LUDB is distributed under the Open Data Commons Attribution License v1.0 (ODC-By), which requires attribution of the original authors. When using the data, please cite:
+
+> Kalyakulina, A., Yusipov, I., Moskalenko, V., Nikolskiy, A., Kosonogov, K., Zolotykh, N., & Ivanchenko, M. (2021). *Lobachevsky University Electrocardiography Database* (version 1.0.1). PhysioNet. https://doi.org/10.13026/eegm-h675
+
+> Kalyakulina, A. I., Yusipov, I. I., Moskalenko, V. A., Nikolskiy, A. V., Kosonogov, K. A., Osipov, G. V., Zolotykh, N. Yu., & Ivanchenko, M. V. (2020). LUDB: A New Open-Access Validation Tool for Electrocardiogram Delineation Algorithms. *IEEE Access*, 8, 186181-186190. https://doi.org/10.1109/ACCESS.2020.3029211
 
 ## Using the Application
 

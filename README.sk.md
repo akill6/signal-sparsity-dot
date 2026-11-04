@@ -17,6 +17,7 @@ Autor: Anzhelika Nikolaieva, 2026
 - [Rýchly štart](#rýchly-štart)
 - [Štruktúra repozitára](#štruktúra-repozitára)
 - [Databáza signálov](#databáza-signálov)
+- [Zdroj dát a licencia](#zdroj-dát-a-licencia)
 - [Ovládanie aplikácie](#ovládanie-aplikácie)
 - [Ako výpočet funguje](#ako-výpočet-funguje)
 - [Metriky](#metriky)
@@ -129,6 +130,18 @@ Súbory kratšie ako 3000 vzoriek aplikácia odmietne s chybovým hlásením.
 Ak súbor neobsahuje premennú `ecgSignal`, zobrazí sa chyba načítania.
 
 Súbory v zozname sa radia podľa čísla v názve (1, 2, 3 … 200), nie abecedne.
+
+## Zdroj dát a licencia
+
+Signály v priečinku `matDBs/` pochádzajú z voľne dostupnej databázy **Lobachevsky University Electrocardiography Database (LUDB)**, verzia 1.0.1, zverejnenej na PhysioNet: <https://physionet.org/content/ludb/1.0.1/>. LUDB obsahuje 200 desaťsekundových 12-zvodových EKG záznamov so vzorkovacou frekvenciou 500 Hz.
+
+Signály boli prevedené do formátu MATLAB `.mat` (premenná `ecgSignal`, 5000 × 12 vzoriek). Anotácie LUDB sa v aplikácii nepoužívajú.
+
+Databáza je šírená pod licenciou Open Data Commons Attribution License v1.0 (ODC-By), ktorá vyžaduje uvedenie pôvodných autorov. Pri použití dát uveďte, prosím:
+
+> Kalyakulina, A., Yusipov, I., Moskalenko, V., Nikolskiy, A., Kosonogov, K., Zolotykh, N., & Ivanchenko, M. (2021). *Lobachevsky University Electrocardiography Database* (version 1.0.1). PhysioNet. https://doi.org/10.13026/eegm-h675
+
+> Kalyakulina, A. I., Yusipov, I. I., Moskalenko, V. A., Nikolskiy, A. V., Kosonogov, K. A., Osipov, G. V., Zolotykh, N. Yu., & Ivanchenko, M. V. (2020). LUDB: A New Open-Access Validation Tool for Electrocardiogram Delineation Algorithms. *IEEE Access*, 8, 186181-186190. https://doi.org/10.1109/ACCESS.2020.3029211
 
 ## Ovládanie aplikácie
 
